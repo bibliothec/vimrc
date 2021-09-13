@@ -4,12 +4,5 @@ set clipboard=unnamedplus "yでコピーした時にクリップボードに入�
 set belloff=all "ビープなし
 colorscheme molokai "色の変更 
 set ignorecase "検索時に大文字小文字を区別しない
-set smartindent "改行のときにインテンドを調節
 set mouse+=a
-inoremap { {}<Left>
-inoremap {<Enter> {}<Left><CR><ESC><S-o>
-inoremap ( ()<ESC>i
-inoremap (<Enter> ()<Left><CR><ESC><S-o>
-inoremap [ []<LEFT>
-inoremap " ""<LEFT>
-inoremap ' ''<LEFT>
+inoremap <silent> jj <ESC>
