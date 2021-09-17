@@ -13,3 +13,4 @@ inoremap (<Enter> ()<Left><CR><ESC><S-o>
 inoremap [ []<LEFT>
 inoremap " ""<LEFT>
 inoremap ' ''<LEFT>
+set backspace=indent,eol,start
