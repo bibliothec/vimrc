@@ -14,3 +14,4 @@ inoremap [ []<LEFT>
 inoremap " ""<LEFT>
 inoremap ' ''<LEFT>
 set backspace=indent,eol,start
+cmap w!! w !sudo tee > /dev/null %
