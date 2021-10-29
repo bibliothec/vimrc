@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
-let g:netrw_dirhist_6='/home/rune/.vim'
-let g:netrw_dirhist_5='/home/rune/git/vimrc/.vim'
-let g:netrw_dirhist_4='/home/rune/torima/python/a'
-let g:netrw_dirhist_3='/usr/share/nginx/html'
-let g:netrw_dirhist_2='/home/rune/bin/a'
-let g:netrw_dirhist_1='/home/rune/rune_team/.git'

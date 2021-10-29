@@ -7,6 +7,10 @@ set ignorecase "検索時に大文字小文字を区別しない
 set mouse+=a
 set tabstop=8
 set shiftwidth=8
+set nobackup
+set noswapfile
+set matchtime=1
+nnoremap <silent><C-e> :NERDTreeToggle<CR>
 inoremap <silent> jj <ESC>
 set backspace=indent,eol,start
 cmap w!! w !sudo tee > /dev/null %
